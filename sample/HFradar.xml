@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase lang="en" xmlns="http://www.iugonet.org/data/schema"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.iugonet.org/data/schema http://www.iugonet.org/data/schema/iugonet.xsd ">
+ <Version>1.0.3</Version>
+ <Instrument>
+  <ResourceID>spase://IUGONET/Instrument/STEL/SuperDARN/HOK/HFradar</ResourceID>
+  <ResourceHeader>
+   <ResourceName>SuperDARN Hokkaido HF radar</ResourceName>
+   <ReleaseDate>2006-11-06T00:00:00</ReleaseDate>
+   <Description>HF coherent radar at Rikubetsu, Hokkaido, Japan. A radar of Super
+ Dual Auroral Radar Network (SuperDARN) operated by Solar-Terrestrial Environment Laboratory, Nagoya University. In common mode, SuperDARN observes ionospheric plasma convection of the high- and mid-latitude regions with time resolution of 1-2 min. SuperDARN is used not only for the ionospheric research but also for the thermospheric and mesospheric research.</Description>
+   <Contact>
+    <PersonID>spase://IUGONET/Person/Nozomu.Nishitani</PersonID>
+    <Role>PrincipalInvestigator</Role>
+   </Contact>
+  </ResourceHeader>
+  <InstrumentType>Radar</InstrumentType>
+  <InvestigationName>SuperDARN</InvestigationName>
+  <ObservatoryID>spase://IUGONET/Observatory/STEL/SuperDARN/HOK</ObservatoryID>
+ </Instrument>
+
+</Spase>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase lang="en" xmlns="http://www.iugonet.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.iugonet.org/data/schema http://www.iugonet.org/data/schema/iugonet.xsd">
+  <Version>1.0.0</Version>
+  <Person>
+  	<ResourceID>spase://IUGONET/Person/Tomoaki.Hori</ResourceID>
+  	<ReleaseDate>2011-04-01</ReleaseDate>
+  	<PersonName>Tomoaki Hori</PersonName>
+  	<OrganizationName>Solar-Terrestrial Environment laboratory, Nagoya University</OrganizationName>
+  	<Email>horit@stelab.nagoya-u.ac.jp</Email>
+  </Person>
+</Spas>
+  
