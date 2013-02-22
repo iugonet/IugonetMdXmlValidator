@@ -35,7 +35,7 @@ class Xml_validator
 
     @schema_valid = true
     @error = @schema.validate(@doc)
-    @schema_valid = false if @error != nil
+    @schema_valid = false if @error.to_s().length > 0 
 
     @schema_valid
 
@@ -44,7 +44,7 @@ class Xml_validator
   def dump_schema_check_error
 
     @error.each do |error|
-      puts "XML not schema valid ([#{error.line}-#{error.column}] #{error.message})"
+      puts "XML not valid ([#{error.line}-#{error.column}] #{error.message})"
     end
 
   end
