@@ -1,6 +1,6 @@
 require 'xml_validator'
 
-xmlfn = "sample/Tomoaki.Hori.xml"
+xmlfn = "sample/HFradar.xml"
 schemafn = "sample/iugonet-1_0_3.xsd"
 
 
